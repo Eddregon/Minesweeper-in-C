@@ -1,0 +1,29 @@
+needed:
+
+- for each question, take out the surplus characters given by the user
+
+
+Later:
+- do load game function
+- do save game function
+
+Done:
+- finish the reveal_cells function and check if it works
+- create a function to count the number of flags on the board
+- add a number of bombs left in the print_board function according to the number of flags on the board
+- do check_win function
+- add understand minuscule letters in choosing a cell
+- change the functions that ask choices to the user to use char to avoid errors, and then usually convert it to int
+- invert row and columns, so the column is the first asked as that is the most intuitive (seen later that it is not true)
+- play again screen
+- instead of two questions (play or save and then reveal or flag) in players turn, give them three options (reveal, flag or save)
+- when revealing a 0 in a cell, even if the cell next to it is a flag it should reveal the cell
+- free the boards, once the player has won or lost
+- ask play again in a function, to avoid repeating code
+- don't allow the player to flag a cell that is already revealed
+- in the case where the player has placed too many flags, tell them that they have placed too many flags
+- easy difficulty, take off the difficulty word
+- number of flags on the board
+- letters before the numbers in the board
+- add colors to the numbers and flags in order to make the game more visually appealing and easier to understand
+- for the numbers above 10 find a way to understand them and not 10 as 1 and 0 -> string with scanf an then convert into int with atoi function
